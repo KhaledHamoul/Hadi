@@ -29,6 +29,14 @@ Route::get('/{locale}/contact', function ($locale) {
     //
 });
 
+Route::get('/{locale}/about', function ($locale) {
+    App::setLocale($locale);
+    return view('about');
+
+    //
+});
+
+
 Route::get('{locale}/register', function ($locale) {
     App::setLocale($locale);
     return view('auth/register');

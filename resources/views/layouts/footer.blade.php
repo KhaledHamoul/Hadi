@@ -5,18 +5,18 @@
 						<div class="col-md-4">
 							<div class="single-widget">
 								<div class="desc">
-									<h6 class="title">Address</h6>
-									<p>56/8, panthapath, west <br> dhanmondi, kalabagan</p>
+									<h6 class="title">@lang('lang.faddress')</h6>
+									<p>@lang('lang.faddress1')<br>@lang('lang.faddress2')</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="single-widget">
 								<div class="desc">
-									<h6 class="title">Email Address</h6>
+									<h6 class="title">@lang('lang.femail')</h6>
 									<div class="contact">
-										<a href="mailto:info@dataarc.com">info@dataarc.com</a> <br>
-										<a href="mailto:support@dataarc.com">support@dataarc.com</a>
+										<a href="mailto:info@dataarc.com">@lang('lang.femail1')</a> <br>
+										<a href="mailto:support@dataarc.com">@lang('lang.femail2')</a>
 									</div>
 								</div>
 							</div>
@@ -24,10 +24,10 @@
 						<div class="col-md-4">
 							<div class="single-widget">
 								<div class="desc">
-									<h6 class="title">Phone Number</h6>
+									<h6 class="title">@lang('lang.fphone')</h6>
 									<div class="contact">
-										<a href="tel:1545">012 4562 982 3612</a> <br>
-										<a href="tel:54512">012 6321 956 4587</a>
+										<a href="tel:1545">@lang('lang.fphone1')</a> <br>
+										<a href="tel:54512">@lang('lang.fphone2')</a>
 									</div>
 								</div>
 							</div>

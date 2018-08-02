@@ -11,8 +11,8 @@
 								</div>
 								<div class="main-menubar d-flex align-items-center">
 									<nav class="hide">
-										<a href="/app/public/ar">@lang('lang.home')</a>
-										<a href="/app/public/ar/contact">@lang('lang.contactUs')</a>
+										<a href="/Hadi/public/ar">@lang('lang.home')</a>
+										<a href="/Hadi/public/ar/contact">@lang('lang.contactUs')</a>
 										<a href="#">@lang('lang.whoAreWe')</a>
 									</nav>
 									<div class="menu-bar"><span class="lnr lnr-menu"></span></div>

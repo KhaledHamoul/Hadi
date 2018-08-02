@@ -1,6 +1,7 @@
+
 @extends('layouts.header')
 	<body>
-		<div class="main-wrapper-first">
+	<div class="main-wrapper-first">
 			<div class="hero-area2 relative">
 				<header>
 					<div class="container">
@@ -10,7 +11,7 @@
 									<a href="index.html"><img src="img/logo.png" alt=""></a>
 								</div>
 								<div class="main-menubar d-flex align-items-center">
-									<nav class="hide">
+								<nav class="hide">
 										<a href="<?php
 											if (App::isLocale('ar'))  echo '/Hadi/public/ar"';
 											else  echo '/Hadi/public/en"';		
@@ -30,37 +31,30 @@
 						</div>
 					</div>
 				</header>
-				<div class="banner-area">
+				<div class="banner-area" style="height:45px;">
 					<div class="container">
 						<div class="row height align-items-center">
-							<div class="col-lg-7">
-								<div class="banner-content">
-									<h1 class="text-white text-uppercase mb-10">@lang('lang.title') <br> @lang('lang.subtitle')</h1>
-									<p class="text-white mb-30">@lang('lang.description')</p>
-                                    <a href="{{ App::getLocale() }}/register" class="primary-btn d-inline-flex align-items-center"><span class="mr-10">@lang('lang.register')</span></a>
-                                    <br/><br/>
-                                    <a href="{{ App::getLocale() }}/login" class="primary-btn d-inline-flex align-items-center"><span class="mr-10">@lang('lang.login')</span></a>
-                                </div>
-							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="main-wrapper">
-			<div class="working-process-area">
+			<section class="story-area">
 				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-lg-6">
-							<div class="section-title text-center">
-								<h2>@lang('lang.brieftitle')</h2>
-								<p>@lang('lang.briefdesc')</p>
+					<div class="row height align-items-center">
+						<div class="col-lg-1">
+						</div>
+						<div class="col-lg-7">
+							<div class="story-box">
+								<h6 class="text-uppercase">@lang('lang.abtitle')</h6>
+								<p>@lang('lang.abdesc')</p>
 							</div>
 						</div>
 					</div>
-				
 				</div>
-			</div>
+			</section>
 		</div>
-		<div class="main-wrapper">
-            @extends('layouts.footer')
+
+
+@extends('layouts.footer')
