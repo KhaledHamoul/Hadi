@@ -1,60 +1,51 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+#Inspiration
+As one of the team member experienced the hajj ritual multiple timed before, he noticed lacking of management in the Hadi ritual process, he would go into long lines and complete the order in a traditional manual and paperwork, he felt the need to fix this problem not just for his own experience but to many other pilgrims for many years coming. 
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+##What it does
+Our idea is simply to digitize the process of Hadi ritual in hajj using a web application containing : 
+-Hadi online ordering. 
+-Hadi real time tracking system.
+-Notification system through the stages of Hadi slaughtering. 
+-Live video streaming of slaughtering sent to each pilgrim. 
+-Self-service kiosks spread around the location of hajj. 
+##In order to: 
+-Easily notify the pilgrim when slaughtering is done to break the Hajj ritual. 
+-Eliminate the need of pilgrim presence in slaughterhouses. 
+-Enabling the pilgrim to collect the exact parts of the Hadi he paid for. 
+-Enabling people with disabilities to experience Hajj easily. 
+-Keeping a precise tracking system of livestock throughout the slaughterhouse, for both pilgrim and slaughterhouse management. 
 
-## About Laravel
+##How we built it
+-We used MYSQl to build the database. Consisting of 6 tables: User, Orders, Hadi, Haid type, Stages, MK (slaughterhouse) you can have a more detailed view in this graph (http://cutt.us/HadiDB) . 
+-We used an open source HTML for building the interface of the web application.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+##Challenges we ran into
+-Finding the ultimate livestock tracking process. 
+-keeping a simple user experience, for all kind of pilgrims can use regarding their backgrounds. 
+-Working in a very limited time and resources, under a lot of pressure. 
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+##Accomplishments that we're proud of
+-Cutting Time and Effort of achieving the Hadi ritual. 
+-Helping people with disabilities to achieve a much more simplified hajj experience. 
+-Achieving a simple user-friendly web application. 
+-The pilgrim makes sure to be handled the exact cattle he paid for. 
+-Tackling the problem of paperwork. 
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
+##What we learned
+Working under pressure. 
+Communicating ideas and building up upon them collaboratively. 
+Enhancing our team working skills. 
+Working with different nationalities and backgrounds. 
+To have fun while doing the required job. 
 
-## Learning Laravel
+##What's next for F-01-Hadi solution
+Our idea is very much expandable and has the capacity to grow larger and help not just the pilgrim and the slaughterhouse, but also grow further to reach: 
+1- The supply-chain management: 
+*Supplying from local & international farms. 
+*Collecting workforce for the slaughterhouses. 
+2- The Hadi distribution channels: 
+*Collaborate with the local and international charities. 
+*Establishing channels around the haram distributing freshly cooked Hadi to pilgrims. 
+3- And most importantly having datasets that can be used in analysis for further improvements. 
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of any modern web application framework, making it a breeze to get started learning the framework.
-
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell):
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+##Built With
