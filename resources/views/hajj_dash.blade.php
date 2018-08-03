@@ -58,7 +58,7 @@
 			margin: 80px;
 			padding : 10px;
 			text-align : right; 
-			width: 70%;
+			width: 60%;
 			
 		}
 		.progress-table {
