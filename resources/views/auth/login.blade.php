@@ -37,7 +37,7 @@
                                                     <input type="password" name="password" placeholder="<?php echo __('lang.Password');?>" onfocus="this.placeholder = ''" onblur="this.placeholder = '<?php echo __('lang.Password');?>'" class="common-input mt-20" required>
                                                 </div>
                                                 <div class="col-lg-10 d-flex justify-content-end">
-                                                    <button class="primary-btn submit-btn d-inline-flex align-items-center mt-20"><span class="mr-10"><?php echo __('lang.Login');?></span></button> <br>
+                                                    <button class="primary-btn submit-btn d-inline-flex align-items-center mt-20"><span class="mr-10"><?php echo __('lang.login');?></span></button> <br>
                                                     <div class="alert-msg"></div>
                                                 </div>
                                             </div>
