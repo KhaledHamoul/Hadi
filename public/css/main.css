@@ -1039,7 +1039,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .progress-table {
-  background: #f9f9ff;
+  background: #fcfcff;
   padding: 15px 0px 30px 0px;
   min-width: 800px;
 }
@@ -2132,8 +2132,8 @@ body {
   display: inline-block;
   width: 120px;
   height: 120px;
-  border-radius: 3px;
-  border: 1px solid #eee;
+  border-radius: 30%;
+  border: 3px solid #f33;
   text-align: center;
 }
 

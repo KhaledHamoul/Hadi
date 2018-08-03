@@ -58,6 +58,14 @@ Route::get('{locale}/track', function ($locale) {
     //
 });
 
+Route::get('{locale}/dashboard', function ($locale) {
+    App::setLocale($locale);
+    return view('hajj_dash');
+
+    //
+});
+
+
 
 
 
