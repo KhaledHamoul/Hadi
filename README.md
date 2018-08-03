@@ -1,5 +1,5 @@
 
-<img style="align:center" src="https://github.com/badralyafeai/Hadi/blob/master/logo.JPG">
+<img style="margin:auto" src="https://github.com/badralyafeai/Hadi/blob/master/logo.JPG">
 
 
 # Inspiration
