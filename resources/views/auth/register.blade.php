@@ -28,8 +28,10 @@
                                             <div>
                                             </div>
                                         </div>
-                                        <form  style="margin:auto;" id="myForm" action="mail.php" method="post" class="contact-form ">
-                                            <div class="row justify-content-center">
+                                        <form  style="margin:auto;" id="myForm" action="" method="POST" class="contact-form ">
+											
+										    {{ csrf_field() }}
+											<div class="row justify-content-center">
                                                 <div class="col-lg-7">
                                                     <input id="name" type="text" name="fname" placeholder="<?php echo __('lang.Name');?>" onfocus="this.placeholder = ''" onblur="this.placeholder = '<?php echo __('lang.Name');?>'" class="common-input" required>
                                                 </div>
@@ -63,7 +65,6 @@
 						<div class="col-lg-6">
 							<div class="section-title text-center">
 								<h2><?php echo __('lang.hadiChoice');?></h2>
-								<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving</p>
 							</div>
 						</div>
 					</div>
@@ -108,7 +109,7 @@
 					
                     <div class="row justify-content-center">
 				<div class="col-lg-7 d-flex justify-content-end">
-						<a href="#"  class="genric-btn primary circle">@lang('lang.pay')</a>
+						<a href="/Hadi/public/ar/dashboard" onClick=""  class="genric-btn primary circle">@lang('lang.pay')</a>
 						</div></div>
 				</div>
 				
@@ -160,6 +161,10 @@
             var p = document.getElementById('price');
             p.value = parseInt(q1)*1000 + parseInt(q2)*1500 + parseInt(q3)*2000 ;
         }
+
+		function submitForm(){
+			document.getElementById("myForm").submit();
+		}
 
         </script>
 			

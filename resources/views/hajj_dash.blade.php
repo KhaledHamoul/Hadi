@@ -29,7 +29,7 @@
 							<div class="banner-content text-center">
                                 <h1 class="text-white text-uppercase mb-10">هادي سولوشن </h1>
                                 <br><br>
-								<p class="text-white"> أهلا بك  <h4 style="font-weight:bold"> إسم الحاج </h4></p>
+								<p class="text-white"> أهلا بك  <h4 style="font-weight:bold"> Ali Alissa</h4></p>
 							</div>
 						</div>
 					</div>
@@ -85,31 +85,31 @@
 								<div class="table-head">
 									<div class="serial"></div>
 									<div class="country"><h4>الإسم</h4></div>
-									<div id="name" class="visit"></div>
+									<div id="name" class="visit">Ali Alissa</div>
 									
 								</div>
 								<div class="table-head">
 									<div class="serial"></div>
 									<div class="country"><h4>رقم الحاج</h4></div>
-									<div id="hajjID" class="visit"></div>
+									<div id="hajjID" class="visit">0012454687956</div>
 									
 								</div>
 								<div class="table-head">
 									<div class="serial"></div>
 									<div class="country"><h4>الجنسية</h4></div>
-									<div id="nationality" class="visit"></div>
+									<div id="nationality" class="visit">جزائرية</div>
 									
 								</div>
 								<div class="table-head">
 									<div class="serial"></div>
 									<div class="country"><h4>رقم الهاتف </h4></div>
-									<div id="phone" class="visit"></div>
+									<div id="phone" class="visit">+213 667 280 998</div>
 									
 								</div>
 								<div class="table-head">
 									<div class="serial"></div>
 									<div class="country"><h4>الإيميل</h4></div>
-									<div id="email" class="visit"></div>
+									<div id="email" class="visit">badr@gmail.com</div>
 									
 								</div>
 								<br>
@@ -127,7 +127,7 @@
 								<div class="table-head">
 									<div class="serial"></div>
 									<div class="country"><h4>النوع</h4></div>
-									<div id="category" class="visit"></div>
+									<div id="cat" class="visit"></div>
 									
 								</div>
 								<div class="table-head">
@@ -149,9 +149,9 @@
 						<br><br><br><br>
 						<h3 class="text-heading"> تتبع مراحل هديك :</h3>
 						<!-- Process of el hady -->
-						<div class="total-work-process d-flex flex-wrap justify-content-around align-items-center">
+						<div style="padding:0px;margin-right:-50px" class="total-work-process d-flex flex-wrap justify-content-around align-items-center">
 							<div class="single-work-process">
-								<div style="border : 2px solid green" id="stage1" class="work-icon-box">
+								<div  id="stage1" class="work-icon-box">
 									<img class="stageIcons" src="{{ asset('img/stages/1.png') }}"></img>
 								</div>
 								<h4 class="caption">1.  تأكيد الطلب</h4>
@@ -201,10 +201,10 @@
 				</div>
 
 					<div  class="w3-bar-block w3-white">
-						<div style="text-align : center;padding-top : 35px;height : 100px;"><h3 class="text-heading">سلة هديك</h3></div>
-						<a href="#" style="text-align : center;padding-top : 25px;" class="w3-bar-item w3-button">هديك 1</a>
-						<a href="#" style="text-align : center;padding-top : 25px;" class="w3-bar-item w3-button">هديك 2</a>
-						<a href="#" style="text-align : center;padding-top : 25px;" class="w3-bar-item w3-button">هديك 3</a>
+						<div style="text-align : center;padding-top : 65px;height : 180px;"><h3 class="text-heading">سلة هديك</h3></div>
+						<a  onClick="hadi1()" style="text-align : center;padding-top : 25px;" class="w3-bar-item w3-button">هديك 1</a>
+						<a  onClick="hadi2()" style="text-align : center;padding-top : 25px;" class="w3-bar-item w3-button">هديك 2</a>
+						<a  onClick="hadi3()" style="text-align : center;padding-top : 25px;" class="w3-bar-item w3-button">هديك 3</a>
 					</div>
 					
 		
@@ -250,15 +250,51 @@
 </html>
 
 <script>
-				function w3_open() {
-					document.getElementById("main").style.marginLeft = "25%";
-					document.getElementById("mySidebar").style.width = "25%";
-					document.getElementById("mySidebar").style.display = "block";
-					document.getElementById("openNav").style.display = 'none';
+
+				var cat = document.getElementById('cat');
+				var rfid = document.getElementById('refID');
+				var price = document.getElementById('price');
+
+				var s1 = document.getElementById('stage1');
+				var s2 = document.getElementById('stage2');
+				var s3 = document.getElementById('stage3');
+				var s4 = document.getElementById('stage4');
+				
+				function hadi1(){
+					cat.innerHTML = 'غنم';
+					refID.innerHTML = '456812135458';
+					price.innerHTML = '1000';
+					
+					s1.style.border = '2px green solid';
+					s2.style.border = '2px green solid';
+					s3.style.border = '2px green solid';
+					s4.style.border = '2px red solid';
+					
 				}
-				function w3_close() {
-					document.getElementById("main").style.marginLeft = "0%";
-					document.getElementById("mySidebar").style.display = "none";
-					document.getElementById("openNav").style.display = "inline-block";
+
+				function hadi2(){
+					cat.innerHTML = 'بقر';
+					refID.innerHTML = '15884546455485';
+					price.innerHTML = '1500';
+
+					s1.style.border = '2px green solid';
+					s2.style.border = '2px red solid';
+					s3.style.border = '2px red solid';
+					s4.style.border = '2px red solid';
+
+					setInterval( function(){ s2.style.border = '2px green solid'; }, 6000);
+					
+				}
+
+				function hadi3(){
+					cat.innerHTML = 'جمل';
+					refID.innerHTML = '564548445664';
+					price.innerHTML = '2000';
+
+					s1.style.border = '2px green solid';
+					s2.style.border = '2px green solid';
+					s3.style.border = '2px red solid';
+					s4.style.border = '2px red solid';
+					
 				}
 		</script>

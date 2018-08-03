@@ -70,6 +70,9 @@ Route::get('{locale}/dashboard', function ($locale) {
 
 
 
+
+
+
 Route::resource('user', 'UserController');
 Route::resource('orders', 'OrdersController');
 Route::resource('hadi', 'HadiController');

@@ -1913,7 +1913,7 @@ nav a:hover {
 
 body {
   background-image: -moz-linear-gradient(0deg, #4cd4e3 0%, #3e69fe 100%);
-  background-image: -webkit-linear-gradient(0deg, #4cd4e3 0%, #3e69fe 100%);
+  background-image: -webkit-linear-gradient(0deg, #bbf3f0 0%, #bbf3f0 100%);
   background-image: -ms-linear-gradient(0deg, #4cd4e3 0%, #3e69fe 100%);
 }
 
@@ -1967,7 +1967,7 @@ body {
 
 .p1-gradient-bg, .primary-btn:after, .banner-area, .featured-area, .story-area, .footer-social a:after {
   background-image: -moz-linear-gradient(0deg, #3e69fe 0%, #4cd4e3 100%);
-  background-image: -webkit-linear-gradient(0deg, #3e69fe 0%, #4cd4e3 100%);
+  background-image: -webkit-linear-gradient(0deg, #FFCE3F 0%, #f3773e 100%);
   background-image: -ms-linear-gradient(0deg, #3e69fe 0%, #4cd4e3 100%);
 }
 
@@ -2486,16 +2486,16 @@ body {
 
 .single-widget .desc h6 {
   margin-bottom: 10px;
-  color: #fff;
+  color: #000;
   font-size: 20px;
 }
 
 .single-widget .desc .contact a {
-  color: #fff;
+  color: #000;
 }
 
 .single-widget .desc p {
-  color: #fff;
+  color: #000;
 }
 
 footer {
